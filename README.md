@@ -45,9 +45,9 @@ You can view the design prototype here:
 
 ## Usage
 
- -Create tasks by typing in the input field and submitting.
- -Edit or delete tasks using the provided buttons.
- -Mark tasks as completed with a checkbox.
+ -Create tasks by typing in the input field and submitting. </br>
+ -Edit or delete tasks using the provided buttons. </br>
+ -Mark tasks as completed with a checkbox.</br>
 
 ---
 
