@@ -1,0 +1,17 @@
+{% extends 'home.html' %}
+{% load static %}
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/signup-login-style.css' %}">
+{% endblock %}
+
+{% block content %}
+    <div class="form">
+        <h1 class="name">Sign up</h1>
+
+        <form action="{% url 'accounts:signup' %}" method="post" class="site-form">
+            {% csrf_token %}
+            {{ form }}
+            <button type="submit" class="signup-btn">Sign up</button>
+        </form>
+    </div>
+{% endblock %}

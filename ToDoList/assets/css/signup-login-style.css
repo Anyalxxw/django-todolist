@@ -1,0 +1,37 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-left: 2rem;
+    justify-self: center;
+    margin-top: 5%;
+}
+.site-form{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+label{
+    font-weight: 700;
+}
+.site-form input{
+    border: 2px solid #393433;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+}
+.helptext ul{
+    list-style: none;
+}
+.helptext{
+    color: grey;
+}
+
+.signup-btn, .login-btn{
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    border: 0;
+    width: fit-content;
+    background: #393433;
+    color: #F3EFEE;
+    cursor: pointer;
+}

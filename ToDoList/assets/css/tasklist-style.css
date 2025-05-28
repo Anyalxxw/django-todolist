@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button.logout-btn{
+    background: #222222;
+    color: #F3EFEE;
+    padding: 0.5rem 1.5rem;
+    border: 0;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+button.delete-btn{
+    background: #FF4545;
+    padding: 0.3rem;
+    border: 0;
+    border-radius: 0.2rem;
+    color: #413F3F;
+    cursor: pointer;
+}
+.task-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 5% 2rem;
+    justify-self: center;
+    min-width: 450px;
+}
+.tasks{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+    background: #F3EFEE;
+    border-radius: 1rem;
+}
+.task.completed{
+    opacity: 0.6;
+}
+.task.completed p{
+    text-decoration: line-through;
+}
+.task .box{
+    border: 2px solid #9F9F9F;
+    border-radius: 0.2rem;
+    padding: 0.1rem 0.3rem;
+    cursor: pointer;
+}
+.task .box.active{
+    background: #222222;
+}
+input.title-input{
+    padding: 1rem 30% 1rem 1rem;
+    background: #F3EFEE;
+    border: 0;
+    border-radius: 1rem;
+}
+input.title-input::placeholder{
+    color: #222222;
+    font-size: 15px;
+}
+.add-btn{
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    border: 0;
+    width: fit-content;
+    background: #393433;
+    color: #F3EFEE;
+    cursor: pointer;
+}

@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+a:hover, .options p:hover, .btn_signup:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+h1{
+    color: black;
+    text-align: left;
+    font-size: 40px;
+}
+h2{
+    color: #D1A28B;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.home-page{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-self: center;
+    margin-top: 5%;
+}
+.options{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: 1rem 0;
+    width: 450px;
+}
+.options p{
+    background: #F3EFEE;
+    color: #121212;
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+a{
+    display: block;
+    background: #393433;
+    color: #fff;
+    width: 100%;
+    height: 3rem;
+    border-radius: 2rem;
+    font-size: 20px;
+    text-align: center;
+    padding: 0.6rem;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+.login-signupBtn {
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+

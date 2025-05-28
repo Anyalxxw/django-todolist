@@ -1,0 +1,36 @@
+{% extends 'home.html' %}
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/tasklist-style.css' %}">
+{% endblock %}
+
+{% block content %}
+
+    <div class="task-list">
+        <form action="{% url 'accounts:logout' %}" method="post">
+            {% csrf_token %}
+            <button type="submit" class="logout-btn">Log out</button>
+        </form>
+        <h1>Today</h1>
+        <div class="tasks">
+            {% for task in tasks %}
+            <div class="task">
+                <div class="box">ㅤ</div>
+                <p>{{task.text}}</p>
+                <form action="{% url 'tasks:delete' task.id %}" method="post" >
+                    {% csrf_token %}
+                    <button class="delete-btn">Delete</button>
+                </form>
+            </div>
+            {% endfor %}
+        </div>
+            <form action="{% url 'tasks:taskslist' %}" method="post" class="input">
+                {% csrf_token %}
+                {{ form.text }}
+                <button type="submit" class="add-btn">Add</button>
+            </form>
+    </div>
+
+    <script src="{% static 'js/index.js' %}"></script>
+
+{% endblock %}
