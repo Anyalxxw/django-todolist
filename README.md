@@ -28,10 +28,10 @@ You can view the design prototype here:
    git clone https://github.com/Anyalxxw/django-todolist.git
    cd django-todolist
 2. Create and activate a virtual environment:
-   python -m venv venv
-   On Mac or Linux:
-   source venv/bin/activate
-   On Windows:
+   python -m venv venv </br>
+   On Mac or Linux: </br>
+   source venv/bin/activate </br>
+   On Windows: </br>
    venv\Scripts\activate
 3. Install dependencies:
    pip install -r requirements.txt
