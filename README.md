@@ -27,17 +27,17 @@ You can view the design prototype here:
    ```bash
    git clone https://github.com/Anyalxxw/django-todolist.git
    cd django-todolist
-2. Create and activate a virtual environment:
+2. Create and activate a virtual environment: </br>
    python -m venv venv </br>
    On Mac or Linux: </br>
    source venv/bin/activate </br>
    On Windows: </br>
    venv\Scripts\activate
-3. Install dependencies:
+3. Install dependencies: </br>
    pip install -r requirements.txt
-4. Apply migrations:
+4. Apply migrations: </br>
    python manage.py migrate
-5. Run the development server:
+5. Run the development server: </br>
    python manage.py runserver
 6. Open your browser and go
 
