@@ -23,10 +23,9 @@ You can view the design prototype here:
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Anyalxxw/django-todolist.git
-   cd django-todolist
+1. Clone the repository: </br>
+   git clone https://github.com/Anyalxxw/django-todolist.git </br>
+   cd django-todolist </br>
 2. Create and activate a virtual environment: </br>
    python -m venv venv </br>
    On Mac or Linux: </br>
